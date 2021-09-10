@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #26d0c9;
+    height: 90px;
+    color: white;
+}
+
+.header-logo {
+    padding: 22px 40px;
+    font-size: 34px;
+    float: left;
+}
+
+.header-list li {
+    float: left;
+    z-index: 999;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10px;
+    padding: 35px 10px;
+}
+
+.main {
+    padding: 100px 80px;
+}
+
+.main .copy-container h1 {
+    font-size: 130px;
+    margin-bottom: 10px;
+}
+
+.copy-container span {
+    color: red;
+}
+
+.copy-container h2 {
+    font-size: 60px;
+    margin-bottom: 70px;
+}
+
+.content {
+    height: 500px;
+}
+.content h3 {
+    font-size: 25px;
+    border-bottom: 1px solid #a3acb1;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.contents-item {
+    float: left;
+    margin-left: 35px;
+    font-size: 23px;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+.contacts-form {
+    margin-top: 55px;
+}
+
+.contacts-form h3 {
+    font-size: 25px;
+    border-bottom: 1px solid #a3acb1;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.contacts-form p {
+    margin-bottom: 10px;
+}
+
+input {
+    height: 50px;
+    width: 370px;
+    margin-bottom: 25px;
+    border-color: #dee7ec;
+    padding: 10x;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 80px;
+    width: 370px;
+    margin-bottom: 25px;
+    border-color: #dee7ec;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.button {
+    background-color: #dee7ec;
+    font-size: 17px;
+    color: #889eab;
+    border: none;
+}
+
+.footer {
+    color: white;
+    background-color: #2f5167;
+    font-size: 32px;
+    padding: 30px;
+    height: 120px;
+}
+
+.footer-list {
+    float: right;
+    margin-top: -30px;
+}
+
+.footer-list li {
+    list-style: none;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+     *zoom: 1;
+ }
